@@ -1,0 +1,32 @@
+/* Create a new project. See https://github.com/react-native-community/cli */
+$ npx react-native init MyApp
+
+/* Run Application */
+$ react-native run-android // rodar sempre que eu alterar alguma biblioteca do Reactnative
+$ react-native start // Rodar o MetroBundler
+$ npx react-native run-android
+$ react-native start --reset-cache // Para reinstalar o app no celular
+
+/* Main Install */
+$ yarn add eslint -D
+$ yarn eslint --init
+   /* Delete package-lock.json and after run yarn */
+$ yarn add prettier eslint-config-prettier eslint-plugin-prettier -D
+$ yarn add reactotron-react-native
+$ yarn add styled-components 
+$ yarn add react-native-vector-icons // Ver documentação para IOS e Android em https://github.com/oblador/react-native-vector-icons
+$ yarn add axios // Para acessar APIs
+$ yarn add @react-native-community/async-storage // Para trabalhar com armazenamento interno
+
+
+/* Install Reactotron */
+https://github.com/infinitered/reactotron/releases
+
+/* React Navigation */
+https://reactnavigation.org/docs/getting-started
+$ yarn add react-navigation
+// $ yarn add react-navigation-stack
+$ yarn add react-native-reanimated react-native-gesture-handler react-native-screens react-native-safe-area-context @react-native-community/masked-view
+
+/* Babel Plugin Root Import */
+yarn add babel-plugin-root-import eslint-import-resolver-babel-plugin-root-import -D
